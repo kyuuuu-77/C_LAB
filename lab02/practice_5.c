@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main() {
     printf("%6s %5s\n", "과목", "점수");
     printf("=============\n");
     printf("%6s %5d\n", "국어", 90);
