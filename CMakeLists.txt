@@ -18,4 +18,10 @@ add_executable(C_LAB lab01/practice_1.c
         lab03/practice_3.c
         lab03/practice_4.c
         lab03/practice_5.c
-        lab03/practice_5_1.c)
+        lab03/practice_5_1.c
+        lab04/practice_1.c
+        lab04/practice_2.c
+        lab04/practice_3.c
+        lab04/practice_4.c
+        lab04/practice_4_1.c
+        lab04/practice_5.c)
