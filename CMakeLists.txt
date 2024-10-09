@@ -32,4 +32,4 @@ add_executable(C_LAB lab01/practice_1.c
         lab06/practice_1.c
         lab06/practice_2.c
         lab06/practice_3.c
-        lab06/practice_4.c)
+)
