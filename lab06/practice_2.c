@@ -1,25 +1,30 @@
 #include "stdio.h"
 
 int main() {
-    int a, b;
-    printf("a와 b값을 입력하세요 => ");
-    scanf("%d %d", &a, &b);
+    char a = -126;
+    unsigned char b = 130;
 
-    int inv_a = ~a;
-    int inv_b = ~b;
-    int result = inv_a ^ inv_b;
+    a >>= 1; b >>= 1;
 
-    int cnt = 0;
-    cnt += (result & 1);
-    cnt += (result >> 1) & 1;
-    cnt += (result >> 2) & 1;
-    cnt += (result >> 3) & 1;
-    cnt += (result >> 4) & 1;
-    cnt += (result >> 5) & 1;
-    cnt += (result >> 6) & 1;
-    cnt += (result >> 7) & 1;
+    printf("%d", (a >> 7) & 1);
+    printf("%d", (a >> 6) & 1);
+    printf("%d", (a >> 5) & 1);
+    printf("%d", (a >> 4) & 1);
+    printf("%d", (a >> 3) & 1);
+    printf("%d", (a >> 2) & 1);
+    printf("%d", (a >> 1) & 1);
+    printf("%d\n", a & 1);
 
-    printf("%d\n", cnt);
+    printf("%d", (b >> 7) & 1);
+    printf("%d", (b >> 6) & 1);
+    printf("%d", (b >> 5) & 1);
+    printf("%d", (b >> 4) & 1);
+    printf("%d", (b >> 3) & 1);
+    printf("%d", (b >> 2) & 1);
+    printf("%d", (b >> 1) & 1);
+    printf("%d\n", b & 1);
+
+    printf("a값 = %d, b값 = %d\n", a, b);
 
     return 0;
 }
