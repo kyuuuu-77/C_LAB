@@ -6,7 +6,7 @@ int main() {
     int rd_num, user_num;       // 랜덤 값을 저장할 변수와 사용자가 입력한 값을 저장할 변수 선언
     int cnt = 0;        // 몇 번째에 숫자를 맞추었는지 계산하기 위한 카운트 변수 선언
 
-    srand((unsigned) time(NULL));   // 랜덤 값을 추출하기 위한 코드
+    srand((unsigned) time(NULL));   // 랜덤 값을 추출하기 위한 코드 (자세한 내용은 ppt를 참고하세요~)
     rd_num = rand() % 100 + 1;      // 1부터 100사이의 랜덤한 값을 생성하여 rd_num 변수에 저장
 
     while (1) {
