@@ -3,14 +3,14 @@
 #include "stdlib.h"
 
 int main() {
-    int user;
-    int select;
-    int win = 0, draw = 0, lose = 0;
+    int user;       // 유저가 입력한 값을 저장하는 변수
+    int select;     // 컴퓨터가 선택한 값을 저장하는 변수
+    int win = 0, draw = 0, lose = 0;    // 이기거나 지거나 비긴 횟수를 카운트
 
-    srand((unsigned) time(NULL));
+    srand((unsigned) time(NULL));   // 랜덤 값을 설정하기 위한 함수
 
     while(1) {
-        select = rand() % 2;
+        select = rand() % 3;    // 0~2의 랜덤 값을 뽑아서 저장
 
         printf("가위0, 바위1, 보2\n");
         printf("0, 1, 2중 하나를 입력하세요 : ");
