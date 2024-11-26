@@ -49,7 +49,12 @@ add_executable(C_LAB lab01/practice_1.c
         lab11/practice_3.c
         lab11/practice_2.c
         lab11/practice_4.c
-        lab12/practice_4.c
         lab12/practice_2.c
         lab12/practice_1.c
+        lab13/practice_1.c
+        lab13/practice_2.c
+        lab13/practice_3.c
+        lab13/practice_4.c
+        lab12/stock.c
+        lab12/main.c
 )
